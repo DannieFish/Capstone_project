@@ -52,7 +52,22 @@
         integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <!-- Owl carousel script -->
     <script src="js/owl.carousel.min.js"></script>
-
+    <script>
+        $('.owl-carousel').owlCarousel({
+            rtl: false,
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+            }
+        })
+    </script>
 
 
 
