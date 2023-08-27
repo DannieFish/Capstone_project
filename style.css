@@ -7,6 +7,9 @@ header.main-header {
     align-items: center;
 }
 
+.navbar-brand h1 a{
+    color: #0d369f;
+}
 .container-fluid {
     width: 100%;
     padding-right: 15px;
