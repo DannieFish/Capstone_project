@@ -7,9 +7,10 @@ header.main-header {
     align-items: center;
 }
 
-.navbar a{
+.navbar a {
     color: #0d369f;
 }
+
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -27,4 +28,11 @@ header.main-header {
     padding: 30px;
     justify-content: space-between;
     list-style-type: none;
+}
+
+.navbar a :hover{
+    color: #ff6e65;
+    transition: 0.5s all;
+    cursor: pointer;
+
 }
