@@ -56,7 +56,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </nav>
@@ -64,14 +64,10 @@
     </div>
   </header>
   <section>
-    <div class="owl-carousel owl-theme owl-loaded owl-drag owl-one">
+    <div class="owl-carousel owl-theme owl-loaded owl-drag">
       <div class="blog_item">
-        <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/banner3.jpg" alt="">
+
       </div>
-      <div class="blog_item">
-        <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/banner2.jpg" alt="">
-      </div>
-      
     </div>
   </section>
   <section></section>
@@ -89,36 +85,19 @@
   <!-- Owl carousel script -->
   <script src="js/owl_carousel/owl.carousel.min.js"></script>
   <script>
-
-    $(document).ready(function () {
-      $('.owl-one').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          667: {
-            items: 1,
-            nav: false
-          },
-          1000: {
-            items: 1,
-            nav: false
-          }
-        }
-      })
+    $('.owl-carousel').owlCarousel({
+      rtl: false,
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+      }
     })
   </script>
 
