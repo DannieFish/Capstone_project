@@ -21,7 +21,7 @@ header.main-header {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-
+    
 }
 
 .menu {
@@ -63,9 +63,7 @@ header.main-header {
 .welcome_text span {
     color: #ff6e65;
 }
-
-.welcome_text::before {
-
+.welcome_text::before{
     content: "";
     background: gray;
     width: 60px;
@@ -76,9 +74,9 @@ header.main-header {
     left: -20px;
 
 }
-
-.welcome_text::after {
-    left: 42px;
+.welcome_text::after{
+    left: 20px;
+    
     content: "";
     background: gray;
     width: 60px;
@@ -174,27 +172,24 @@ header.main-header {
 .community_grid {
     background: white;
     border-radius: 4px;
-    box-shadow: 0 10px 82px 10px lightgray;
+    box-shadow: 0 10px 82px 10px;
     padding: 2rem;
 }
 
-.author{
-    width: 100px;
+.author {
+    grid-template-columns: .3fr 1fr;
+    align-items: center;
+    grid-gap: 5px;
+    margin-top: 1.5em;
+    display: grid;
+
 }
 
 .author img {
     border-radius: 50%;
-    max-width: 100%;
 }
 
 .text_left {
     text-align: left;
     
-}
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-.quote1{
-    color: #ff6e65;
 }
