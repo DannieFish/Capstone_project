@@ -118,3 +118,26 @@ header.main-header {
     color: #ff6e65;
     transition: all 0.5s;
 }
+.entire_feature{
+    margin-bottom: 40px;
+}
+.service{
+    background-image: url(https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/bg3.jpg);
+}
+
+.feature-gd {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+ .icon i {
+    margin-right: 1rem;
+    color: blue;
+    font-size: 28px;
+    background: rgb(13 54 159 / 9%);
+    width: 65px;
+    height: 66px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+ }
