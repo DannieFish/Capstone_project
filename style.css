@@ -6,7 +6,9 @@ header.main-header {
     display: grid;
     align-items: center;
 }
-
+.container{
+    width: 1200px;
+}
 .navbar {
     justify-content: space-between;
 }
@@ -85,4 +87,34 @@ header.main-header {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+.feature_image span{
+    color: blue;
+    font-size: 30px;
+    background: #0d369f17;
+    
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    
+}
+.feature_title{
+    text-align: center;
+    color: black;
+    transition: all 0.5s;
+
+}
+.feature_info{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.no_under{
+    list-style-type: none;
+    text-decoration: none;  
+}
+.feature_title:hover{
+    color: #ff6e65;
+    transition: all 0.5s;
 }
