@@ -74,7 +74,7 @@ header.main-header {
     right: 0;
     margin: 0 auto;
     left: -20px;
-    
+
 }
 
 .welcome_text::after {
@@ -86,8 +86,9 @@ header.main-header {
     position: absolute;
     right: 0;
     margin: 0 auto;
-    
+
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -155,14 +156,42 @@ header.main-header {
     border-radius: 50%;
     text-align: center;
 }
-.textfornumber{
+
+.textfornumber {
     text-align: center;
 }
-.timer{
+
+.timer {
     font-size: 46px;
     font-weight: 600;
     color: black;
 }
-.count{
+
+.count {
     border-right: 1px solid gray;
+}
+
+.community_grid {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 82px 10px;
+    padding: 2rem;
+}
+
+.author {
+    grid-template-columns: .3fr 1fr;
+    align-items: center;
+    grid-gap: 5px;
+    margin-top: 1.5em;
+    display: grid;
+
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.text_left {
+    text-align: left;
+    
 }
