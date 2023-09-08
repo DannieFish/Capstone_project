@@ -93,3 +93,103 @@ header.main-header {
     margin-right: -15px;
     margin-left: -15px;
 }
+
+.feature_image span {
+    color: blue;
+    font-size: 30px;
+    background: #0d369f17;
+
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+
+}
+
+.feature_title {
+    text-align: center;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.feature_info {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.no_under {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.feature_title:hover {
+    color: #ff6e65;
+    transition: all 0.5s;
+}
+
+.entire_feature {
+    margin-bottom: 40px;
+}
+
+.service {
+    background-image: url(https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/bg3.jpg);
+}
+
+.feature-gd {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.icon i {
+    margin-right: 1rem;
+    color: blue;
+    font-size: 28px;
+    background: rgb(13 54 159 / 9%);
+    width: 65px;
+    height: 66px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.textfornumber {
+    text-align: center;
+}
+
+.timer {
+    font-size: 46px;
+    font-weight: 600;
+    color: black;
+}
+
+.count {
+    border-right: 1px solid gray;
+}
+
+.community_grid {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 82px 10px;
+    padding: 2rem;
+}
+
+.author {
+    grid-template-columns: .3fr 1fr;
+    align-items: center;
+    grid-gap: 5px;
+    margin-top: 1.5em;
+    display: grid;
+
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.text_left {
+    text-align: left;
+    
+}
