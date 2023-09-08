@@ -17,7 +17,7 @@ header.main-header {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
+
 }
 
 .menu {
@@ -51,13 +51,16 @@ header.main-header {
     width: 100%;
     height: 100%;
 }
+
 .welcome_text {
     text-align: center;
 }
-.welcome_text span{
+
+.welcome_text span {
     color: #ff6e65;
 }
-.welcome_text::before{
+
+.welcome_text::before {
     content: "";
     background: gray;
     width: 60px;
@@ -69,9 +72,10 @@ header.main-header {
     bottom: -8px;
 
 }
-.welcome_text::after{
+
+.welcome_text::after {
     left: 20px;
-    
+
     content: "";
     background: gray;
     width: 60px;
@@ -80,9 +84,11 @@ header.main-header {
     right: 0;
     margin: 0 auto;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
+
