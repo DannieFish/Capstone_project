@@ -158,3 +158,11 @@ header.main-header {
 .textfornumber{
     text-align: center;
 }
+.timer{
+    font-size: 46px;
+    font-weight: 600;
+    color: black;
+}
+.count{
+    border-right: 1px solid gray;
+}
