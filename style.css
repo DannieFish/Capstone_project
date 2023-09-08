@@ -174,24 +174,27 @@ header.main-header {
 .community_grid {
     background: white;
     border-radius: 4px;
-    box-shadow: 0 10px 82px 10px;
+    box-shadow: 0 10px 82px 10px lightgray;
     padding: 2rem;
 }
 
-.author {
-    grid-template-columns: .3fr 1fr;
-    align-items: center;
-    grid-gap: 5px;
-    margin-top: 1.5em;
-    display: grid;
-
+.author{
+    width: 100px;
 }
 
 .author img {
     border-radius: 50%;
+    max-width: 100%;
 }
 
 .text_left {
     text-align: left;
     
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.quote1{
+    color: #ff6e65;
 }
