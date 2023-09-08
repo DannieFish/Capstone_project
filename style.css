@@ -6,9 +6,11 @@ header.main-header {
     display: grid;
     align-items: center;
 }
-.container{
+
+.container {
     width: 1200px;
 }
+
 .navbar {
     justify-content: space-between;
 }
@@ -19,7 +21,7 @@ header.main-header {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
+
 }
 
 .menu {
@@ -53,13 +55,17 @@ header.main-header {
     width: 100%;
     height: 100%;
 }
+
 .welcome_text {
     text-align: center;
 }
-.welcome_text span{
+
+.welcome_text span {
     color: #ff6e65;
 }
-.welcome_text::before{
+
+.welcome_text::before {
+
     content: "";
     background: gray;
     width: 60px;
@@ -68,12 +74,11 @@ header.main-header {
     right: 0;
     margin: 0 auto;
     left: -20px;
-    bottom: -8px;
-
-}
-.welcome_text::after{
-    left: 20px;
     
+}
+
+.welcome_text::after {
+    left: 42px;
     content: "";
     background: gray;
     width: 60px;
@@ -81,6 +86,7 @@ header.main-header {
     position: absolute;
     right: 0;
     margin: 0 auto;
+    
 }
 .row {
     display: flex;
@@ -88,40 +94,47 @@ header.main-header {
     margin-right: -15px;
     margin-left: -15px;
 }
-.feature_image span{
+
+.feature_image span {
     color: blue;
     font-size: 30px;
     background: #0d369f17;
-    
+
     width: 70px;
     height: 70px;
     line-height: 70px;
     border-radius: 50%;
-    
+
 }
-.feature_title{
+
+.feature_title {
     text-align: center;
     color: black;
     transition: all 0.5s;
 
 }
-.feature_info{
+
+.feature_info {
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
-.no_under{
+
+.no_under {
     list-style-type: none;
-    text-decoration: none;  
+    text-decoration: none;
 }
-.feature_title:hover{
+
+.feature_title:hover {
     color: #ff6e65;
     transition: all 0.5s;
 }
-.entire_feature{
+
+.entire_feature {
     margin-bottom: 40px;
 }
-.service{
+
+.service {
     background-image: url(https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/bg3.jpg);
 }
 
@@ -130,7 +143,8 @@ header.main-header {
     padding: 30px;
     border-radius: 8px;
 }
- .icon i {
+
+.icon i {
     margin-right: 1rem;
     color: blue;
     font-size: 28px;
@@ -140,4 +154,7 @@ header.main-header {
     line-height: 65px;
     border-radius: 50%;
     text-align: center;
- }
+}
+.textfornumber{
+    text-align: center;
+}
