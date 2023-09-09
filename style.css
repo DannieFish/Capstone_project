@@ -15,10 +15,9 @@ header.main-header {
     z-index: 1000;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
-.navbar {
-    justify-content: space-between;
-}
+
 
 .container-fluid {
     width: 100%;
@@ -28,7 +27,9 @@ header.main-header {
     margin-left: auto;
     
 }
-
+#myBody {
+    background-color: white;
+  }
 .menu {
     display: flex;
 
@@ -41,7 +42,13 @@ header.main-header {
     flex-grow: 1;
     align-items: center;
 }
-
+.input_header{
+    border-radius: 50px;
+    height: 40px;
+    border-color: lightgray;
+    position: relative;
+    margin-right: 30px;
+}
 /* nav */
 .navbar a p {
     color: #0d369f;
@@ -49,20 +56,90 @@ header.main-header {
     margin: 0;
     padding-left: 10px;
 }
-
+.dropdown{
+    justify-content: flex-end;
+}
 .navbar a p:hover {
     width: 100%;
     color: #ff6e65;
     transition: 0.5s all;
     cursor: pointer;
 }
+.nav-item a{
+    transition: all 0.5s;
+    font: 600;
+    color: black;
+    font-size: 1.2rem;
+}
+.navbar{
+    display:flex ;
+    justify-content: flex-end;
+}
+.nav-item a:hover{
+    transition: all 0.5s;
+    color: #ff6e65;
 
+}
+.search_icon{
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
+    
+    transition: all 0.5s;
+}
+.search_icon:hover{
+    transition: all 0.5s;
+    color: #ff6e65;
+}
 .blog_item {
     background-image: url(https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/banner3.jpg);
     width: 100%;
     height: 100%;
 }
+#myBody {
+    background-color: white;
+    color: black;
+}
+.dark #myBody {
+    background-color: #161c2d;
+    color: white;
+}
 
+#switchButton {
+    background-color: white;
+    border: black;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  .dark#myBody {
+    background-color: #161c2d;
+    color: white;
+    background: #161c2d;
+    
+  }
+  .dark #switchButton {
+    background-color: white;
+    
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: #161c2d;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  
+.navbar h1{
+    padding-right: 650px;
+}
 .welcome_text {
     text-align: center;
 }
