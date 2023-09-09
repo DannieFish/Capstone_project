@@ -176,13 +176,6 @@ header.main-header {
     padding: 2rem;
 }
 
-.author {
-    
-    
-    
-    
-
-}
 
 .author img {
     border-radius: 50%;
@@ -194,4 +187,10 @@ header.main-header {
     text-align: left;
     position: absolute;
     
+}
+.instructor{
+    box-shadow: 0 20px 62px lightgray;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
 }
