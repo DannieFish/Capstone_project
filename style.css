@@ -118,10 +118,10 @@ header.main-header {
   #switchButton .fa-moon {
     display: block;
   }
-  .dark#myBody {
-    background-color: #161c2d;
+  .dark#myBody  {
+    
     color: white;
-    background: #161c2d;
+    background: #161c2d !important;
     
   }
   .dark #switchButton {
