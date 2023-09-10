@@ -50,6 +50,9 @@ header.main-header {
     margin-right: 30px;
 }
 /* nav */
+.nav-item a{
+    color: #ff6e65;
+}
 .navbar a p {
     color: #0d369f;
     transition: 0.5s all;
@@ -67,9 +70,11 @@ header.main-header {
 }
 .nav-item a{
     transition: all 0.5s;
-    font: 600;
     color: black;
     font-size: 1.2rem;
+}
+.nav-item .active_home{
+    color: #ff6e65;
 }
 .navbar{
     display:flex ;
@@ -121,7 +126,7 @@ header.main-header {
   .dark#myBody  {
     
     color: white;
-    background: #161c2d !important;
+    background: #161c2d;
     
   }
   .dark #switchButton {
@@ -271,10 +276,4 @@ header.main-header {
     text-align: left;
     position: absolute;
     
-}
-.instructor{
-    box-shadow: 0 20px 62px lightgray;
-    padding: 10px;
-    background: white;
-    border-radius: 8px;
 }

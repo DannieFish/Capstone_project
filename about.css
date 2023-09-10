@@ -1,0 +1,100 @@
+.nav-item a{
+    color: #ff6e65;
+}
+.navbar a p {
+    color: #0d369f;
+    transition: 0.5s all;
+    margin: 0;
+    padding-left: 10px;
+}
+.dropdown{
+    justify-content: flex-end;
+}
+.navbar a p:hover {
+    width: 100%;
+    color: #ff6e65;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.nav-item a{
+    transition: all 0.5s;
+    color: black;
+    font-size: 1.2rem;
+}
+.nav-item .active_home{
+    color: #ff6e65;
+}
+.navbar{
+    display:flex ;
+    justify-content: flex-end;
+}
+.nav-item a:hover{
+    transition: all 0.5s;
+    color: #ff6e65;
+
+}
+.search_icon{
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
+    
+    transition: all 0.5s;
+}
+.search_icon:hover{
+    transition: all 0.5s;
+    color: #ff6e65;
+}
+#myBody {
+    background-color: white;
+    color: black;
+}
+.dark #myBody {
+    background-color: #161c2d;
+    color: white;
+}
+
+#switchButton {
+    background-color: white;
+    border: black;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  .dark#myBody  {
+    
+    color: white;
+    background: #161c2d !important;
+    
+  }
+  .dark #switchButton {
+    background-color: white;
+    
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: #161c2d;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .menu li {
+    padding: 30px;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-grow: 1;
+    align-items: center;
+}
+.input_header{
+    border-radius: 50px;
+    height: 40px;
+    border-color: lightgray;
+    position: relative;
+    margin-right: 30px;
+}
