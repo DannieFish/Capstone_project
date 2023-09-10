@@ -275,6 +275,7 @@ header.main-header {
 .instructor{
     box-shadow: 0 20px 62px lightgray;
     padding: 10px;
+    
     background: white;
     border-radius: 8px;
 }
